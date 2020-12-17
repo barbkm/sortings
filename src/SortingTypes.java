@@ -1,6 +1,6 @@
 import java.util.ArrayList;
 import java.util.List;
-
+// komentarze
 public class SortingTypes {
     private List<Integer> numbersToSort;
 
