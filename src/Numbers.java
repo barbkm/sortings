@@ -11,7 +11,7 @@ public class Numbers {
         numbers = new ArrayList<>();
     }
 
-    //generowaie liczb
+    //generowanie liczb
     public List<Integer>generatreNumbers(){
         Random random = new Random();
         List<Integer>generatedNumbers = new ArrayList<>();
@@ -21,5 +21,21 @@ public class Numbers {
             --numbersOFnumbers;
         }
         return generatedNumbers;
+    }
+
+    public List<Integer> getNumbers() {
+        return numbers;
+    }
+
+    public void setNumbers(List<Integer> numbers) {
+        this.numbers = numbers;
+    }
+
+    public int getNumbersOFnumbers() {
+        return numbersOFnumbers;
+    }
+
+    public void setNumbersOFnumbers(int numbersOFnumbers) {
+        this.numbersOFnumbers = numbersOFnumbers;
     }
 }
